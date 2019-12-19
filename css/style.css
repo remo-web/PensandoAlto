@@ -1,0 +1,59 @@
+html, body, .mdl-layout__content, .mdl-grid {height: 100vh; text-align: center; color: white}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Cookie', cursive !important;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.5)
+}
+p{font-family: 'Quicksand', sans-serif !important; font-size: 1.0rem; font-weight: 300}
+b{font-weight: 700}
+
+hr{
+    border-color: white;
+    margin-left: 20%; margin-right: 20%;
+    opacity: .12;
+    box-shadow: none
+}
+
+.mdl-grid {padding: 0}
+
+.papa-layout-transparent {
+    background: url('../img/papa_bg1080.jpg') center / cover;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+    color: white;
+}
+
+.papa-logo{
+    width: 50%;
+    height: auto;
+    padding: 5% 20%
+}
+
+.papa-social a{
+    padding: 10px
+}
+
+.papa-social a i{
+    margin: 0 1.5%;
+    font-size: 2.3rem;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.5)
+}
+
+.papa-btn{
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 100;
+    color: white;
+    text-transform: none
+}
+
+.papa-copy{
+    opacity: 0.5;
+    text-align: center;
+    
+}
+
+.papa-copy p{font-size: 0.9rem}
