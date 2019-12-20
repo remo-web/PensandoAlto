@@ -50,7 +50,7 @@
 		},
 		"StandardLoginFormWebclient": {
 			"UseDropdownLanguagesView": true,
-			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
+			"BottomInfoHtmlText": "<a href=\"https:\/\/remo.marketing\" target=\"_blank\">RemoMail</a> ✉ Powered by <a href=\"https:\/\/afterlogic.org\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
 		},
 		"RecaptchaWebclientPlugin": {
 			"Disabled": true
@@ -64,7 +64,7 @@
 		"MailLoginFormWebclient": {
 			"Disabled": true,
 			"UseDropdownLanguagesView": true,
-			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.com\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
+			"BottomInfoHtmlText": "<a href=\"https:\/\/remo.marketing\" target=\"_blank\">RemoMail</a> ✉ Powered by <a href=\"https:\/\/afterlogic.com\/webmail-lite\" target=\"_blank\">Afterlogic WebMail Lite</a>"
 		},
 		"OverrideUserSettings": {
 			"Disabled": true
