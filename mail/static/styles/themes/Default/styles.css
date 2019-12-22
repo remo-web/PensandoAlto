@@ -3533,11 +3533,6 @@ html.rtl .quick_reply .buttons .full_form {
 .tabsbar .dropdown_content {
   border-radius: 4px;
 }
-.tabsbar .item.logo:before {
-    content: url('../../images/logo-horizontal.svg');
-    height: 70px;
-    width: calc(20% - 0px);
-}
 .tabsbar > .content {
   display: flex;
   flex-direction: row;
@@ -3568,9 +3563,17 @@ html.rtl .tabsbar .item {
   -moz-animation: highlight 0.5s linear;
   animation: highlight 0.5s linear;
 }
+.tabsbar .item.logo:before {
+    content: 
+}
 .tabsbar .item.logo {
-  display: none;
+  display: block;
   outline: none;
+    height: 62px;
+    width: calc(20% - 25px);
+    background-image: url('../../images/logo-horizontal.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .tabsbar .item.emails {
   cursor: default;
