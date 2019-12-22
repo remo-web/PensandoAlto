@@ -3533,6 +3533,9 @@ html.rtl .quick_reply .buttons .full_form {
 .tabsbar .dropdown_content {
   border-radius: 4px;
 }
+.tabsbar > .content:before {
+    content: url('../../images/logo-horizontal.svg')
+}
 .tabsbar > .content {
   display: flex;
   flex-direction: row;
